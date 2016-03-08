@@ -1,0 +1,26 @@
+{
+    "private": "true",
+    "devDependencies": {
+        "express": "^4.13.0",
+        "lodash": "^4.6.1",
+        "gulp": "^3.8.x",
+        "gulp-clean": "0.x",
+        "gulp-concat": "2.x",
+        "gulp-less": "3.x",
+        "gulp-minify-css": "1.x",
+        "gulp-shell": "0.x",
+        "gulp-uglify": "1.x",
+        "gulp-util": "^3.0.4",
+        "openurl": "1.x",
+        "react-bootstrap": "0.23.x",
+        "react-router": "0.13.3",
+        "reactify": "^1.1.1",
+        "run-sequence": "1.x",
+        "stream-combiner2": "^1.0.2",
+        "vinyl-buffer": "^1.0.0",
+        "vinyl-source-stream": "^1.1.0",
+        "browserify": "^10.2.4",
+        "watchify": "^3.2.3",
+        "yargs": "3.x"
+    }
+}

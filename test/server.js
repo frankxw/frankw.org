@@ -9,6 +9,6 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname, '../index.html'));
 });
 
-app.use(express.static('..'));
+app.use(express.static('../build'));
 
 app.listen(8080);
