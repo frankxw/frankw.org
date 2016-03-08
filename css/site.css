@@ -1,0 +1,37 @@
+html {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 10px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Open Sans', helvetica, sans-serif, arial;
+    font-size: 1.8rem;
+    color: white;
+}
+
+@media all and (min-aspect-ratio: 16/9) { #bg { width: 100%; } }
+@media all and (max-aspect-ratio: 16/9) { #bg { height: 100%; } }
+
+#bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.test {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: gray;
+    width: 50%;
+}
+
+.inner-test {
+    padding: 10rem;
+}

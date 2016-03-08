@@ -1,0 +1,6 @@
+/test/node_modules
+
+npm-debug.log
+
+# Keep anything that we specifically don't want ignored (such as an empty folder)
+!.gitkeep
