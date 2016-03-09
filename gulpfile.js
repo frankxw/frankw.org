@@ -114,6 +114,10 @@ gulp.task('copy_files', function() {
     return gulp.src('files/**').pipe(gulp.dest(path.join(BUILD_PATH, 'files')));
 });
 
+gulp.task('copy_index', function() {
+    return gulp.src('index.html').pipe(gulp.dest(BUILD_PATH));
+});
+
 gulp.task('watch_client', function() {
     gulp.watch('less/**', ['less']);
     gulp.watch('js/**', ['js_debug']);
@@ -121,6 +125,7 @@ gulp.task('watch_client', function() {
     gulp.watch('files/**', ['copy_files']);
     gulp.watch('css/**', ['copy_css']);
     gulp.watch('fonts/**', ['copy_fonts']);
+    gulp.watch('index.hmtl', ['copy_index']);
 });
 
 gulp.task('run_app', function() {
@@ -133,6 +138,7 @@ gulp.task('build_client', function(callback) {
                 'copy_css',
                 'copy_fonts',
                 'copy_files',
+                'copy_index',
                 'less',
                 'js'],
                 callback);
@@ -143,6 +149,7 @@ gulp.task('build_client_debug', function(callback) {
                 'copy_css',
                 'copy_fonts',
                 'copy_files',
+                'copy_index',
                 'less',
                 'js_debug'],
                 callback);
