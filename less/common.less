@@ -1,0 +1,27 @@
+.centered-v {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.centered-h {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.centered-vh {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Font(@family: 'Open Sans', @size: 1, @color: white, @withShadow: false) when (@withShadow = true) {
+    font-family: @family, sans-serif;
+    font-size: (@size * 1rem);
+    color: @color;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
+}
+.Font(@family: 'Open Sans', @size: 1, @color: white, @withShadow: false) when (@withShadow = false) {
+    font-family: @family, sans-serif;
+    font-size: (@size * 1rem);
+    color: @color;
+}

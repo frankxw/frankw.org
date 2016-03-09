@@ -9,10 +9,21 @@ html {
 body {
     margin: 0 !important;
     padding: 0 !important;
-    font-family: 'Open Sans', helvetica, sans-serif, arial;
-    font-size: 1.8rem;
-    color: white;
+    .Font(@family: 'Open Sans', @size: 1.8, @color: white, @withShadow: false);
     background-color: black;
+}
+
+a {
+    .Font(@family: 'Open Sans', @size: 1.8, @color: deepskyblue, @withShadow: false);
+
+    &:hover, &:focus, &:visited {
+        color: lighten(deepskyblue, 10%);
+    }
+}
+
+#react-root {
+    height: 100%;
+    width: 100%;
 }
 
 @media all and (min-aspect-ratio: 16/9) { #bg { width: 100%; } }
@@ -20,10 +31,8 @@ body {
 
 #bg {
     position: fixed;
-    top: 50%;
-    left: 50%;
+    &:extend(.centered-vh);
     z-index: -1;
-    transform: translateX(-50%) translateY(-50%);
     opacity: 0.5;
 }
 
@@ -31,16 +40,4 @@ body {
     width: 100%;
     padding: 20px;
     text-align: center;
-}
-
-.test {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: gray;
-    width: 50%;
-}
-
-.inner-test {
-    padding: 10rem;
 }
