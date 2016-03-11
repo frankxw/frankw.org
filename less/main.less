@@ -33,11 +33,18 @@ a {
     position: fixed;
     &:extend(.centered-vh);
     z-index: -1;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 .not-found {
     width: 100%;
     padding: 20px;
     text-align: center;
+}
+
+.root {
+    position: relative;
+    &:extend(.centered-h);
+    width: 60%;
+    min-width: 400px;
 }

@@ -7,7 +7,7 @@ var React                   = require("react"),
     DefaultRoute            = Router.DefaultRoute,
     NotFoundRoute           = Router.NotFoundRoute,
     AppRoot                 = require('./AppRoot.jsx'),
-    Professional            = require('./Professional.jsx');
+    Works                   = require('./Works.jsx');
 
 var NotFound = React.createClass({
     render: function() {
@@ -22,7 +22,7 @@ var NotFound = React.createClass({
 var routes = (
     <Route name="home" path="/" handler={AppRoot}>
 
-        <DefaultRoute handler={Professional}/>
+        <DefaultRoute handler={Works}/>
         <NotFoundRoute handler={NotFound}/>
     </Route>
 );

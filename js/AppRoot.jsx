@@ -8,9 +8,10 @@ var React                   = require("react"),
 var AppRoot = React.createClass({
     render: function() {
         return (
-            <Header>
+            <div className="root">
+                <Header/>
                 <RouteHandler/>
-            </Header>
+            </div>
         );
     }
 });

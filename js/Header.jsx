@@ -23,7 +23,6 @@ var Header = React.createClass({
                             linkText="resume"/>
                     </div>
                 </div>
-                {this.props.children}
             </div>
         );
     }
