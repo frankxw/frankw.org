@@ -1,7 +1,7 @@
 html {
     margin: 0 !important;
     padding: 0 !important;
-    font-size: 10px;
+    // font-size: 10px;  // This value is controlled by viewport.less, but it's useful to imagine the starting font size at 10px (makes the math easy)
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -22,6 +22,7 @@ a {
 }
 
 #react-root {
+    position: relative;
     height: 100%;
     width: 100%;
 }
@@ -42,7 +43,7 @@ a {
     text-align: center;
 }
 
-.root {
+.app-root {
     position: relative;
     &:extend(.centered-h);
     width: 60%;

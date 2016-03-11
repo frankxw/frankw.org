@@ -1,20 +1,13 @@
 .works {
+    position: relative;
+    &:extend(.centered-h);
 
-    .coming-soon {
-        position: relative;
-        width: 100%;
-        padding: 100px;
-        .Font(@size: 5, @withShadow: true);
-        text-align: center;
-    }
+    width: 85%;
+    max-width: 800px;
+    min-width: 280px;
 
     .listing {
         position: relative;
-        &:extend(.centered-h);
-
-        width: 100%;
-        max-width: 800px;
-        min-width: 400px;
         margin: 10px 0;
 
         display: flex;
@@ -35,13 +28,10 @@
             opacity: 0.7;
         }
 
-        & > div {
-            flex-grow: 1;
-        }
-
         @listing-spacing: 10px;
 
         .icon {
+            flex-grow: 1;
             padding: 10px @listing-spacing;
             text-align: center;
 
@@ -52,6 +42,7 @@
         }
 
         .content {
+            flex-grow: 1;
             padding: 0 @listing-spacing;
 
             .title {
@@ -66,6 +57,9 @@
             .button {
                 padding: 10px 0;
                 font-weight: bold;
+                button {
+                    .Font(@family: 'Open Sans', @size: 1.5, @withShadow: true);
+                }
             }
 
             &.left .title,&.left .text,&.left .button {
