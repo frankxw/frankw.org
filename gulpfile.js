@@ -125,7 +125,7 @@ gulp.task('watch_client', function() {
     gulp.watch('files/**', ['copy_files']);
     gulp.watch('css/**', ['copy_css']);
     gulp.watch('fonts/**', ['copy_fonts']);
-    gulp.watch('index.hmtl', ['copy_index']);
+    gulp.watch('index.html', ['copy_index']);
 });
 
 gulp.task('run_app', function() {
