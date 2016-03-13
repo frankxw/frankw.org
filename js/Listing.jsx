@@ -9,16 +9,16 @@ var Listing = React.createClass({
         var sideClass = this.props.left ? 'left' : 'right';
 
         var icon = (
-            <div className={"icon " + sideClass}>
+            <div className="icon">
                 <img src={this.props.img}/>
             </div>
         );
 
         var text = (
-            <div className={"content " + sideClass}>
+            <div className="content">
                 <div className="title">{this.props.title}</div>
                 <div className="text">{this.props.text}</div>
-                <div className={"button " + sideClass}>
+                <div className="button">
                     <Button bsStyle="info">More <span className="fa fa-external-link"></span></Button>
                 </div>
             </div>
@@ -35,7 +35,7 @@ var Listing = React.createClass({
         }
 
         return (
-            <div className="listing">
+            <div className={"listing " + sideClass}>
                 <div className="bg"></div>
                 {left}{right}
             </div>

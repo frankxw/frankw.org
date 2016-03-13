@@ -2,40 +2,46 @@
 
 module.exports = {
 
-    tgw: {
-        title: 'Title 1',
-        img: '/img/tgw.jpg',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
+    mh: {
+        title: 'Making History',
+        img: '/img/tgwbattle.jpg',
+        text: 'I contributed to the release of Making History II: The War of the World and Making History: The Great War. As an intern, I worked on the UI, content import tools, and engine features. As a senior engineer, I worked on some of the underlying game simulation logic, Steam controller / SDK support and porting the engine to Linux.'
     },
 
-    spc_editor: {
-        title: 'Title 2',
-        img: '/img/tgw.jpg',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
+    author: {
+        title: 'Muzzy Lane Author',
+        img: '/img/author.jpg',
+        text: 'Led efforts to build a new game-based learning service. Muzzy Lane Author allows course designers, instructors, and subject matter experts to create game-based experiences with assessment. These activities can be laucnhed via LTI and use native web technologies to provide seamless experiences on the web and mobile devices.'
     },
 
-    foo: {
-        title: 'Title 3',
-        img: '/img/tgw.jpg',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
+    mhp: {
+        title: 'McGraw-Hill Education Simulations',
+        img: '/img/mcgraw.jpg',
+        text: 'I was the lead programmer / maintainer on several McGraw-Hill Practice turn-based simulation games. My efforts included UI, game simulation, and analytics.'
     },
 
-    bar: {
-        title: 'Title 4',
-        img: '/img/tgw.jpg',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
+    tools: {
+        title: 'Game Editors',
+        img: '/img/tool.jpg',
+        text: 'I worked on a suite of tools used in Muzzy Lane\'s Locust engine. Tools include a conversation editor, scene editor, quest editor, and game state editor. These tools grew over time to encompass a complete visual scripting system used by a team of content engineers / game designers.'
     },
 
-    foo2: {
-        title: 'Title 5',
-        img: '/img/tgw.jpg',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
+    games: {
+        title: 'Games & Prototypes',
+        img: '/img/fox.jpg',
+        text: 'I worked on many small games and prototypes at Muzzy Lane.'
     },
 
-    bar2: {
-        title: 'Title 6',
-        img: '/img/tgw.jpg',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
+    bloodtide: {
+        title: "Blood Tide",
+        img: '/img/bloodtide.jpg',
+        text: 'Blood Tide was my senior project at WPI. It is an Action-RTS (MOBA) featuring underwater combat and was released in 2010.'
+    },
+
+    gcw: {
+        title: "Galactic Civil War",
+        img: '/img/gcw.jpg',
+        text: 'GCW is a side project I\'m working on with the aim of being a small MMO-like game.'
     }
 
 };

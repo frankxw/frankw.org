@@ -26,11 +26,11 @@
             width: 100%;
             height: 100%;
             z-index: -1;
-            background-color: black;
-            opacity: 0.7;
+            background-color: white;
+            opacity: 0.9;
         }
 
-        @listing-spacing: 10px;
+        @listing-spacing: 5px;
 
         .icon {
             flex-grow: 1;
@@ -38,8 +38,8 @@
             text-align: center;
 
             img {
-                width: 20rem;
-                height: 16rem;
+                width: 24rem;
+                // height: 16rem;
             }
         }
 
@@ -48,27 +48,43 @@
             padding: 0 @listing-spacing;
 
             .title {
-                .Font(@family: 'Open Sans', @size: 2.2, @withShadow: true);
+                .Font(@family: 'Open Sans', @size: 2.2, @color: black, @withShadow: false);
                 font-weight: bold;
             }
 
             .text {
-                .Font(@family: 'Open Sans', @size: 1.7, @withShadow: true);
+                .Font(@family: 'Open Sans', @size: 1.7, @color: black, @withShadow: false);
             }
 
             .button {
                 padding: 10px 0;
                 font-weight: bold;
                 button {
-                    .Font(@family: 'Open Sans', @size: 1.5, @withShadow: true);
+                    .Font(@family: 'Open Sans', @size: 1.5, @color: black, @withShadow: false);
                 }
             }
+        }
 
-            &.left .title,&.left .text,&.left .button {
-                text-align: left;
+        @listing-border-radius: 15px;
+
+        &.left {
+            .content {
+                .title,.text,.button {
+                    text-align: left;
+                }
             }
-            &.right .title,&.right .text,&.right .button {
-                text-align: right;
+            .bg {
+                border-bottom-left-radius: @listing-border-radius;
+            }
+        }
+        &.right {
+            .content {
+                .title,.text,.button {
+                    text-align: right;
+                }
+            }
+            .bg {
+                border-bottom-right-radius: @listing-border-radius;
             }
         }
     }
