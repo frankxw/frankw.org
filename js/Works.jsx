@@ -14,7 +14,7 @@ var Works = React.createClass({
 
         _.forIn(data, function(value, key) {
             listings.push(
-                <Listing key={value.title} title={value.title} img={value.img} text={value.text} left={even}/>
+                <Listing key={value.title} data={value} left={even}/>
             );
             even = !even;
         });
