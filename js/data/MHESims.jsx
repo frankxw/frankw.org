@@ -1,13 +1,16 @@
 'use strict';
 
-var React       = require("react");
+var React           = require("react"),
+    ContentSection  = require('../ContentSection.jsx');
 
 var MHESims = React.createClass({
     render: function() {
         return (
-            <div>
-                <h1>Coming Soon...</h1>
-            </div>
+            <ContentSection>
+                <div className='mhesims'>
+                    <h1>Coming Soon...</h1>
+                </div>
+            </ContentSection>
         );
     }
 });

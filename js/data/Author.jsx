@@ -1,13 +1,16 @@
 'use strict';
 
-var React       = require("react");
+var React           = require("react"),
+    ContentSection  = require('../ContentSection.jsx');
 
 var Author = React.createClass({
     render: function() {
         return (
-            <div>
-                <h1>Coming Soon...</h1>
-            </div>
+            <ContentSection>
+                <div className='author'>
+                    <h1>Coming Soon...</h1>
+                </div>
+            </ContentSection>
         );
     }
 });
