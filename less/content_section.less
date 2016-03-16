@@ -1,10 +1,46 @@
 .content-section {
+    position: relative;
+    margin: 25px 0;
 
     .back-button {
-        margin: 50px 0;
+        margin: 10px 0;
         button {
             .Font(@family: 'Open Sans', @size: 1.6, @color: white, @withShadow: false);
         }
     }
 
+    .bg {
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .editors {
+        position: relative;
+        padding: 15px;
+        .Font(@family: 'Open Sans', @size: 1.6, @color: black, @withShadow: false);
+    }
+
+    .inline-image {
+        position: relative;
+        text-align: center;
+
+        img {
+            max-width: 90%;
+        }
+    }
+
+    .caption {
+        margin-bottom: 10px;
+        text-align: center;
+        .Font(@family: 'Open Sans', @size: 1.2, @color: black, @withShadow: false);
+        font-style: italic;
+
+        a {
+            .Font(@family: 'Open Sans', @size: 1.2, @color: deepskyblue, @withShadow: false);
+
+            &:hover, &:focus, &:visited {
+                color: lighten(deepskyblue, 10%);
+            }
+        }
+    }
 }
