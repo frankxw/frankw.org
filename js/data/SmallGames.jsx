@@ -7,8 +7,13 @@ var SmallGames = React.createClass({
     render: function() {
         return (
             <ContentSection>
-                <div className='samllgames'>
-                    <h1>Coming Soon...</h1>
+                <div className="smallgames">
+                    <div className="bg"></div>
+                    <div>
+                        <p>
+                            Coming Soon
+                        </p>
+                    </div>
                 </div>
             </ContentSection>
         );
