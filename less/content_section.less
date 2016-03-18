@@ -17,12 +17,6 @@
         border-bottom-left-radius: 20px;
     }
 
-    .editors {
-        position: relative;
-        padding: 15px;
-        .Font(@family: 'Open Sans', @size: 1.6, @color: black, @withShadow: false);
-    }
-
     .inline-image {
         position: relative;
         text-align: center;
@@ -45,5 +39,15 @@
                 color: lighten(deepskyblue, 10%);
             }
         }
+    }
+
+    .editors, .gcw {
+        position: relative;
+        padding: 15px;
+        .Font(@family: 'Open Sans', @size: 1.6, @color: black, @withShadow: false);
+    }
+
+    .gcw a {
+        .Font(@family: 'Open Sans', @size: 1.6, @color: black, @withShadow: false);
     }
 }

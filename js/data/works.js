@@ -20,8 +20,9 @@ module.exports = {
     mhp: {
         title: 'McGraw-Hill Education Simulations',
         img: '/img/mcgraw.jpg',
-        text: 'I was the lead programmer / maintainer on several McGraw-Hill Practice turn-based simulation games. My efforts included UI, game simulation, and analytics.',
-        link: 'mhesims'
+        text: 'I was the lead programmer / maintainer on several McGraw-Hill Practice turn-based simulation games. My efforts included UI, game simulation, and analytics. In the past year and a half, these games have all been revamped to work directly in the browser with native technologies. Check out the website for some demos!',
+        buttonText: 'MHPractice.com',
+        url: 'http://www.mhpractice.com/'
     },
 
     tools: {

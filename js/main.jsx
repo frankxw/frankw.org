@@ -9,7 +9,6 @@ var React           = require("react"),
     AppRoot         = require('./AppRoot.jsx'),
     Works           = require('./Works.jsx'),
     Author          = require('./data/Author.jsx'),
-    MHESims         = require('./data/MHESims.jsx'),
     Editors         = require('./data/Editors.jsx'),
     SmallGames      = require('./data/SmallGames.jsx'),
     GCW             = require('./data/GCW.jsx');
@@ -27,7 +26,6 @@ var NotFound = React.createClass({
 var routes = (
     <Route name="home" path="/" handler={AppRoot}>
         <Route name="author" path="/author" handler={Author}/>
-        <Route name="mhesims" path="/mhesims" handler={MHESims}/>
         <Route name="editors" path="/editors" handler={Editors}/>
         <Route name="games" path="/games" handler={SmallGames}/>
         <Route name="gcw" path="/gcw" handler={GCW}/>
