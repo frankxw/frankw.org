@@ -11,7 +11,7 @@ var Author = React.createClass({
                     <div className="bg"></div>
                     <div>
                         <p>
-                            Over the last two years, I have led efforts at Muzzy Lane to write a brand new service that allows instructional designers and subject matter experts to author game-based learning exercises and assessments. The service uses all web-native technologies (HTML5, WebGL, WebSockets) to deliver games in-browser and on mobile devices.
+                            Over the last two years, I have led efforts at Muzzy Lane to write a brand new service that allows instructional designers and subject matter experts to author game-based learning exercises and assessments. The service uses native-web technologies (HTML5, WebGL, WebSockets) to deliver games in-browser and on mobile devices.  Our goal was to get players into the game without needing to install any additional software besides their web browser.
                         </p>
                         <p>
                             <div className="inline-image"><img src="/img/content/author_dash.jpg"/></div>

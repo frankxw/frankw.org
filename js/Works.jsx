@@ -4,7 +4,7 @@ var _       = require('lodash'),
     React   = require("react"),
     Listing = require("./Listing.jsx");
 
-var data = require('./data/works');
+var data = require('./data/works.jsx');
 
 var Works = React.createClass({
     render: function() {
