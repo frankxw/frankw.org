@@ -14,7 +14,7 @@ var SmallGames = React.createClass({
                             Over the years at Muzzy Lane, I worked on many games and prototypes, ranging from being the only programmer to being on a small team.  At one point or another, I've touched virtually all aspects of the development of these games.
                         </p>
                         <p className="demo-links">
-                            You can play a few of them for free:
+                            You can play a few of them for free: <br/>
                             <a href="http://education.nationalgeographic.org/media/underground-railroad-journey-freedom/" className="btn btn-info" target="_blank">Underground Railroad: Journey to Freedom <span className="fa fa-gamepad"></span></a> <br/>
                             <a href="http://digitalglass.biz/the-ipad-app/" className="btn btn-info" target="_blank">Hungry Birds <span className="fa fa-gamepad"></span></a> <br/>
                             <a href="https://fox-stage.muzzylane.com/" className="btn btn-info" target="_blank">Feed the Fox <span className="fa fa-gamepad"></span></a> <br/>
