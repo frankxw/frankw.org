@@ -35,7 +35,7 @@ var Author = React.createClass({
                             <div className="inline-image"><img src="/img/content/telescope2.jpg"/></div>
                             <div className="caption">Selecting a version to deploy.</div>
                             <div className="inline-image"><img src="/img/content/telescope3.jpg"/></div>
-                            <div className="caption">Deployment notifies you of it's status throughout the process.</div>
+                            <div className="caption">Deployment notifies you of its status throughout the process.</div>
                         </p>
                         <p>
                             Upgrading and deploying apps in the service is as easy as selecting a published version and clicking a button.  Telescope even handles graceful shutdowns and rolling upgrades across a fleet of servers for no-downtime upgrades.
