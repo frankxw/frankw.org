@@ -23,13 +23,22 @@ var Author = React.createClass({
                         </p>
                         <p className="demo-links">
                             Here's a few demos made with Muzzy Lane Author: <br/>
-                            <a href="#" className="btn btn-info" target="_blank">Demo <span className="fa fa-gamepad"></span></a> <br/>
-                            <a href="#" className="btn btn-info" target="_blank">Demo <span className="fa fa-gamepad"></span></a> <br/>
-                            <a href="#" className="btn btn-info" target="_blank">Demo <span className="fa fa-gamepad"></span></a> <br/>
-                            <a href="#" className="btn btn-info" target="_blank">Demo <span className="fa fa-gamepad"></span></a> <br/>
+                            <a href="https://insights.muzzylane.com/sample/web/e97e0615-0e1e-4bd8-957b-e215d176c56e" className="btn btn-info" target="_blank">Insights Demo <span className="fa fa-gamepad"></span></a> <br/>
+                            <a href="https://sfc.muzzylane.com/sample/web/548aeede-6c25-4425-b642-e54e1711c6ec" className="btn btn-info" target="_blank">SmartChat Demo <span className="fa fa-gamepad"></span></a> <br/>
+                            <a href="https://upvote.muzzylane.com/sample/web/31786f77-c218-42f0-9f8b-d79deea788de" className="btn btn-info" target="_blank">Vote Demo <span className="fa fa-gamepad"></span></a> <br/>
+                            <a href="https://align.muzzylane.com/sample/web/4b227d98-fc59-43f1-b4bb-bd5d966fb937" className="btn btn-info" target="_blank">Align Demo <span className="fa fa-gamepad"></span></a> <br/>
                         </p>
                         <p>
-                            (TODO: Telescope Section Here)
+                            I also worked on tools to support the new Muzzy Lane service. The tool that saves us the most time is a website called Telescope. This site allows us to monitor the service, look up information from the database, and manages our app deployments. <br/>
+                            <div className="inline-image"><img src="/img/content/telescope1.jpg"/></div>
+                            <div className="caption">A listing of running applications.</div>
+                            <div className="inline-image"><img src="/img/content/telescope2.jpg"/></div>
+                            <div className="caption">Selecting a version to deploy.</div>
+                            <div className="inline-image"><img src="/img/content/telescope3.jpg"/></div>
+                            <div className="caption">Deployment notifies you of it's status throughout the process.</div>
+                        </p>
+                        <p>
+                            Upgrading and deploying apps in the service is as easy as selecting a published version and clicking a button.  Telescope even handles graceful shutdowns and rolling upgrades across a fleet of servers for no-downtime upgrades.
                         </p>
                     </div>
                 </div>
