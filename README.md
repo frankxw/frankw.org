@@ -9,5 +9,5 @@ Production build in `build/`
 Remove `build/` directory
 #### `gulp run`
 Debug build and runs a small express app so you can access at `localhost:8080`
-#### `gulp build`
+#### `gulp open`
 Opens browser to `localhost:8080`
