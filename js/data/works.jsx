@@ -4,12 +4,20 @@ var React = require("react")
 
 module.exports = {
 
+    eso: {
+        title: 'Elder Scrolls Online',
+        img: '/img/eso.jpg',
+        text: (<div>Currently working as a Gameplay Engineer on Elder Scrolls Online.</div>),
+        buttonText: 'elderscrollsonline.com',
+        url: 'http://www.elderscrollsonline.com/'
+    },
+
     mh: {
         title: 'Making History',
         img: '/img/tgwbattle.jpg',
         text: (<div>I contributed to the release of <i>Making History II: The War of the World</i> and <i>Making History: The Great War</i>. As an intern, I worked on UI, content import tools, and engine features. As a senior engineer, I worked on some of the underlying game simulation logic, Steam Controller / SDK support, and porting the engine to Linux.</div>),
         buttonText: 'Making-History.com',
-        url: 'http://making-history.com'
+        url: 'http://www.factusgames.com'
     },
 
     author: {
