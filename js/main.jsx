@@ -28,7 +28,6 @@ var routes = (
         <Route name="author" path="/author" handler={Author}/>
         <Route name="editors" path="/editors" handler={Editors}/>
         <Route name="games" path="/games" handler={SmallGames}/>
-        <Route name="gcw" path="/gcw" handler={GCW}/>
 
         <DefaultRoute handler={Works}/>
         <NotFoundRoute handler={NotFound}/>

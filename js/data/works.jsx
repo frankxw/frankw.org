@@ -55,13 +55,6 @@ module.exports = {
         text: (<div>Blood Tide was my senior project at WPI. It is an Action-RTS (MOBA) featuring underwater combat and was released in 2010.</div>),
         buttonText: 'Website',
         url: 'http://bloodtide.demalus.com'
-    },
-
-    gcw: {
-        title: "Galactic Civil War",
-        img: '/img/gcw.jpg',
-        text: (<div>GCW is a side project I'm working on with the aim of being a small MMO-like game.</div>),
-        link: 'gcw'
     }
 
 };
