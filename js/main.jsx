@@ -10,8 +10,7 @@ var React           = require("react"),
     Works           = require('./Works.jsx'),
     Author          = require('./data/Author.jsx'),
     Editors         = require('./data/Editors.jsx'),
-    SmallGames      = require('./data/SmallGames.jsx'),
-    GCW             = require('./data/GCW.jsx');
+    SmallGames      = require('./data/SmallGames.jsx');
 
 var NotFound = React.createClass({
     render: function() {
