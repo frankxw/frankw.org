@@ -10,10 +10,6 @@ var Header = React.createClass({
                 <div className="links-row">
                     <div className="container">
                         <MoreLink
-                            icon="fa fa-github"
-                            link="https://github.com/demalus"
-                            linkText="demalus"/>
-                        <MoreLink
                             icon="fa fa-linkedin-square"
                             link="https://www.linkedin.com/in/frank-williams-600a18a"
                             linkText="frank-williams"/>
@@ -21,6 +17,10 @@ var Header = React.createClass({
                             icon="fa fa-file-text-o"
                             link="/files/frankw_resume.pdf"
                             linkText="resume"/>
+                        <MoreLink
+                            icon="fa fa-github"
+                            link="https://github.com/frankxw"
+                            linkText="frankxw"/>
                     </div>
                 </div>
             </div>
