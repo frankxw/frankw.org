@@ -11,7 +11,7 @@ var Header = React.createClass({
                     <div className="container">
                         <MoreLink
                             icon="fa fa-linkedin-square"
-                            link="https://www.linkedin.com/in/frank-williams-600a18a"
+                            link="https://www.linkedin.com/in/frank-williams"
                             linkText="frank-williams"/>
                         <MoreLink
                             icon="fa fa-file-text-o"
