@@ -1,7 +1,29 @@
-/node_modules
-/build
+# Logs
+logs
+*.log
+npm-debug.log*
 
-npm-debug.log
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variables file
+.env
 
 # Keep anything that we specifically don't want ignored (such as an empty folder)
 !.gitkeep
