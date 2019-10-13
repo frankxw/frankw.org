@@ -2,15 +2,63 @@
 <html lang="en-US">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, height=device-height, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes" />
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self'" />
-        <meta name="theme-color" content="#003366" />
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes" />
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com/ https://kit-free.fontawesome.com/; font-src 'self' https://fonts.gstatic.com/ https://kit-free.fontawesome.com/; script-src 'self' https://kit.fontawesome.com/; frame-src 'self' https://www.youtube.com/;" />
         <meta name="description" content="Frank Williams Personal Site" />
         <meta name="robots" content="noindex" />
         <title>frankw.org</title>
-        <base href="http://frankw.org/index.html" target="_self" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://kit.fontawesome.com/e5efe00229.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        I'm in the process of moving / updating this website.
+        <div class="header">
+            <div class="name-container">
+                <div class="name">
+                    Frank Williams
+                </div>
+                <div class="description">
+                    Generalist programmer working on video games.
+                </div>
+            </div>
+            <div class="ext-link">
+                <div><span class="fab fa-linkedin"></span> <a href="https://www.linkedin.com/in/frank-williams">frank-williams</a></div>
+                <div><span class="fas far fa-file-alt"></span> <a href="/files/frankw_resume.pdf">resume</a></div>
+                <div><span class="fab fa-github"></span> <a href="https://github.com/frankxw">frankxw</a></div>
+            </div>
+        </div>
+        <div class="content-area">
+            <div class="section teso">
+                <div class="title">The Elder Scrolls Online</div>
+                <div class="description">
+                    <p>In 2016 I joined <a href="https://www.zenimaxonline.com/">ZeniMax Online Studios</a> as a Gameplay Engineer.</p>
+                    <p>Since joining I've worked on stuff like Combat, Abilities, Player Pets, Reward Systems, Animation Systems, Dragons <i class="fas fa-dragon"></i>, and Monster AI.</p>
+                    <p align="center">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/RDHC2LSFxvk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <br /><span class="caption">Check out the game's <a href="https://www.elderscrollsonline.com/">official website</a>.</span><br />
+                    </p>
+                </div>
+            </div>
+            <div class="section muzzy">
+                <div class="title">Muzzy Lane Software</div>
+                <div class="description">
+                    <p>In 2010 I joined <a href="http://www.muzzylane.com/">Muzzy Lane Software</a> as a Software Engineer.</p>
+                    <p>While there I worked on many many things, including: Games & Prototypes, Game Editing Tools, Game Backend Services, Gameplay, UI, Game Engines, Shaders, Databases, Analytics, Tech Support, Dev-ops, and more! Projects ranged from working within our proprietary Locust Game Engine (C++ and JavaScript), modern web (HTML5 and web sockets), 1st party integrations (Steam, LTI), and backend deployment (AWS).</p>
+                    <p align="center">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/a6r52LRYMOM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <br /><span class="caption">Check out <a href="https://factusgames.com/collections/all/products/making-history-ii-the-war-of-the-world">Making History</a></span><br />
+                    </p>
+                    <p align="center">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/5_Q5OPI7MSk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <br /><span class="caption">Check out <a href="http://www.muzzylane.com/platform/">Muzzy Lane Author</a></span><br />
+                    </p>
+                    <p align="center">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/k-dxhDYo6Gs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <br /><span class="caption">Check out <a href="https://www.mhpractice.com/">McGraw Hill Practice</a></span><br />
+                    </p>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
+

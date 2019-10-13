@@ -1,0 +1,123 @@
+html {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 6px;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: "Open Sans", sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    background: #FFFAF0;
+    color: #000000;
+}
+
+a,a:hover:focus:visited {
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    color: #0099FF;
+    text-decoration: none;
+}
+
+.header {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 25px;
+}
+
+.header .name-container {
+    display: inline-block;
+    margin-right: 25px;
+    vertical-align: top;
+}
+
+.header .name {
+    display: block;
+    font-family: "Permanent Marker", cursive;
+    font-size: 7rem;
+    font-weight: normal;
+    color: #000000;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.7);
+}
+
+.header .description {
+    display: block;
+    font-size: 2rem;
+}
+
+.header .ext-link {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.header .ext-link > div {
+    display: block;
+    padding: 4px;
+    font-size: 1.8rem;
+    vertical-align: middle;
+}
+
+.header .ext-link > span {
+    color: #000000;
+}
+
+.header .ext-link a,a:hover:focus:visited {
+    font-weight: bold;
+}
+
+.content-area {
+    display: block;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.content-area .section {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80rem;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.content-area .section .title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.content-area .section .description {
+    font-size: 2rem;
+    font-weight: normal;
+    color: #000000;
+}
+
+.content-area .section .description .caption {
+    font-size: 1.6rem;
+}
+
+.content-area .section p {
+    margin: 10px 0;
+}
+
+.content-area .teso {
+    background: linear-gradient(to top, #FFFAF0 40%, rgba(0,0,0,0) 100%), linear-gradient(to right, #FFFAF0 0%, rgba(0,0,0,0) 50%, #FFFAF0 100%), url('./img/teso.png') top center no-repeat;
+}
+
+.content-area .muzzy {
+    background: linear-gradient(to top, #FFFAF0 60%, rgba(0,0,0,0) 100%), linear-gradient(to right, #FFFAF0 0%, rgba(0,0,0,0) 50%, #FFFAF0 100%), url('./img/muzzy.png') top center no-repeat;
+}
+
+@media screen and (min-width: 800px) {
+    html {
+        font-size: 10px;
+    }
+}
