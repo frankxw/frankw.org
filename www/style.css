@@ -1,7 +1,7 @@
 html {
     margin: 0 !important;
     padding: 0 !important;
-    font-size: 6px;
+    font-size: 4px;
     height: 100%;
     width: 100%;
 }
@@ -100,6 +100,11 @@ a,a:hover:focus:visited {
     color: #000000;
 }
 
+.content-area .section .description iframe {
+    width: 336px;
+    height: 189px;
+}
+
 .content-area .section .description .caption {
     font-size: 1.6rem;
 }
@@ -119,5 +124,10 @@ a,a:hover:focus:visited {
 @media screen and (min-width: 800px) {
     html {
         font-size: 10px;
+    }
+
+    .content-area .section .description iframe {
+        width: 560px;
+        height: 315px;
     }
 }
