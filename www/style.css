@@ -40,7 +40,7 @@ a,a:hover:focus:visited {
 
 .header .name {
     display: block;
-    font-family: "Permanent Marker", cursive;
+    font-family: "Permanent Marker", sans-serif;
     font-size: 7rem;
     font-weight: normal;
     color: #000000;
@@ -101,8 +101,8 @@ a,a:hover:focus:visited {
 }
 
 .content-area .section .description iframe {
-    width: 336px;
-    height: 189px;
+    width: 280px;
+    height: 157px;
 }
 
 .content-area .section .description .caption {
@@ -111,6 +111,10 @@ a,a:hover:focus:visited {
 
 .content-area .section p {
     margin: 10px 0;
+}
+
+.content-area .section p a,a:hover:focus:visited {
+    color: #3355FF;
 }
 
 .content-area .teso {
