@@ -125,6 +125,16 @@ a,a:hover:focus:visited {
     background: linear-gradient(to top, #FFFAF0 60%, rgba(0,0,0,0) 100%), linear-gradient(to right, #FFFAF0 0%, rgba(0,0,0,0) 50%, #FFFAF0 100%), url('./img/muzzy.png') top center no-repeat;
 }
 
+.footer {
+    display: block;
+    position: absolute;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #000000;
+    text-align: center;
+}
+
 @media screen and (min-width: 800px) {
     html {
         font-size: 10px;
