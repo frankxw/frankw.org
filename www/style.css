@@ -125,6 +125,10 @@ a,a:hover:focus:visited {
     border: none;
 }
 
+.content-area .blizz {
+    background: linear-gradient(to top, #FFFAF0 40%, rgba(0,0,0,0) 100%), linear-gradient(to right, #FFFAF0 0%, rgba(0,0,0,0) 50%, #FFFAF0 100%), url('./img/wow.png') top center no-repeat;
+}
+
 .content-area .teso {
     background: linear-gradient(to top, #FFFAF0 40%, rgba(0,0,0,0) 100%), linear-gradient(to right, #FFFAF0 0%, rgba(0,0,0,0) 50%, #FFFAF0 100%), url('./img/teso.png') top center no-repeat;
 }
